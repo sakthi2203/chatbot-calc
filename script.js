@@ -13,7 +13,7 @@ function clearDisplay() {
 function calculate() {
     try {
         const result = eval(expression);
-        document.getElementById('display').value = result;
+        document.getElementById('display').value = result.toFixed(2);
         expression = '';
     } catch (error) {
         document.getElementById('display').value = 'Error';
