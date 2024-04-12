@@ -39,3 +39,12 @@ button {
 button:hover {
     background-color: #eaeaea;
 }
+
+.button-operator {
+    background-color: #ff8c00;
+    color: #fff;
+}
+
+.button-operator:hover {
+    background-color: #e88000;
+}
